@@ -1,0 +1,12 @@
+prefix=c:/Users/user/OneDrive/Documents/ThirdEyeData/pipelineproject/venv/Library
+exec_prefix=c:/Users/user/OneDrive/Documents/ThirdEyeData/pipelineproject/venv/Library
+libdir=c:/Users/user/OneDrive/Documents/ThirdEyeData/pipelineproject/venv/Library/lib
+includedir=c:/Users/user/OneDrive/Documents/ThirdEyeData/pipelineproject/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
