@@ -1,8 +1,8 @@
-pandas
+pandas 
 numpy
-flask
-scikit-learn
 seaborn
+typing 
+scikit-learn
+pickles
 flask
-typing
 -e .
