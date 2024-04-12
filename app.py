@@ -2,7 +2,7 @@ from flask import Flask, request, render_template, jsonify
 # Alternatively can use Django, FastAPI, or anything similar
 from src.pipelines.pred_pipeline import CustomData, PredictPipeline
 
-application = Flask(__name__)
+application = Flask(__name__, static_folder='templates')
 app = application
 
 @app.route('/')
